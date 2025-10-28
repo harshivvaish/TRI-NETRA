@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div id="logo">
+
+            </div>
+
+            <div id="home" onclick="home()">
+                HOME
+            </div>
+
+            <div id="help" onclick="netra()">
+                HELP
+            </div>
+
+            <div id="add" onclick="ad()">
+                SELL WASTE
+            </div>
+            
+
+            <div id="netra" onclick="netra()">
+                NETRA
+            </div>
+        </div>
+    </header>
+
+
+    <main class="main">
+
+        <div class="img">
+
+        </div>
+
+        <div class="text">
+            <h1 class="text1">mandir</h1>
+            <p class="des">1 pc item with glod plated bottels now at just 249 with silver rings and golden curves this will make your home more impresiive and beautiful</p>
+            <p value="299" id="value">159/-</p>
+            <button class="buy" onclick="pay()">BUY</button>
+        </div>
+
+        <div id="show">
+            <h2 id="qrtxt">Generate Payment QR Code</h2>
+            <div id="qrcode"></div>
+            <button onclick="detail()" id="proceed">Proceed Forward</button>
+        </div> 
+    </main>
+    
+
+    
+    
+    
+</body>
+
+<script async src="00004.js"></script> 

@@ -1,0 +1,202 @@
+body{
+    background-color: rgb(72, 72, 72);
+}
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height:80px;
+}
+
+#logo{
+    background-color: aqua;
+    height: 70px;
+    width:50px;
+}
+
+#home{
+    margin-left: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: larger;
+    font-weight:normal;
+    color: white;
+    border: 1.5px solid white;
+    box-shadow: 0px 0px 0px 2px black;
+    height: 40px;
+    width:90px;
+}
+
+#home:hover{
+    background-color: white;
+    color: rgb(3, 91, 26);
+    font-size: larger;
+    font-weight:normal;
+    cursor: pointer;
+}
+
+#help{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    font-size: larger;
+    font-weight:normal;
+    height: 40px;
+    width:90px;
+    border: 1.5px solid white;
+    box-shadow: 0px 0px 0px 2px black;
+}
+
+#help:hover{
+    background-color: white;
+    color: rgb(3, 91, 26);
+    font-size: larger;
+    font-weight:normal;
+    cursor: pointer;
+}
+
+#netra{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    font-size: larger;
+    font-weight:normal;
+    border: 1.5px solid white;
+    box-shadow: 0px 0px 0px 2px black;
+    height: 40px;
+    width:90px;
+}
+
+#netra:hover{
+    background-color: white;
+    color: rgb(3, 91, 26);
+    font-size: larger;
+    font-weight:normal;
+    cursor: pointer;
+}
+
+#add{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    font-size: larger;
+    font-weight:normal;
+    border: 1.5px solid white;
+    box-shadow: 0px 0px 0px 2px black;
+    height: 40px;
+    width:150px;
+}
+
+#add:hover{
+    background-color: white;
+    color: rgb(3, 91, 26);
+    font-size: larger;
+    font-weight:normal;
+    cursor: pointer;
+}
+
+.main{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items:center ;
+    justify-content: space-evenly;
+}
+
+.img{
+    margin-left: 30px;
+    height:500px;
+    width: 450px;
+    background-image: url(images/image\ 2.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text{
+    margin-left: 20px;
+    height:300px;
+    width:800px;
+}
+
+.des{
+    margin-top: 30px;
+    height: 150px;
+    width:500px;
+}
+
+.buy{
+    background-color: rgb(3, 91, 26) ;
+    height: 40px;
+    width:120px;
+    color: white;
+    border: 1.5px solid white;
+}
+
+.buy:hover{
+    cursor: pointer;
+}
+
+#id{
+    display: none;
+}
+
+
+.text1{
+    color: white;
+
+}
+
+.des{
+    height: 100px;
+    color:white
+}
+
+#value{
+    color: white;
+}
+
+
+.buy{
+    color: white;
+    margin-top: 50px;
+}
+
+
+.buy:hover{
+    color: white;
+    margin-top: 50px;
+    opacity: 60%;
+}
+
+#show{
+    margin-right: 20px;
+    margin-bottom: 100px;
+
+}
+
+#qrtxt{
+    color: white;
+    margin-bottom: 10px;
+}
+
+#proceed{
+    background-color: green;
+    height: 30px;
+    width: 150px;
+    margin-top: 10px;
+
+}
