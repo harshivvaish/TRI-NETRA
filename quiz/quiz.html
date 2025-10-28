@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <main class="main">
+        <header class="header">
+            <a href="/home/index.html" class="logo">quiz</a>
+
+
+            <nav class="navbar">
+                <a href="/home/index.html" class="active">home</a>
+                <a href="/home/index.html">about</a>
+                <a href="#">contact</a>
+            </nav>
+        </header>
+
+        <div class = "container">
+            <section class = "quiz-section">
+                <div class="quiz-box">
+                    <h1>
+                        Interactive Quiz
+                    </h1>
+                    <div class="quiz-header">
+                        <span>Environmental Quiz</span>
+                        <span class="header-score">score: 0/5</span>
+
+                    </div>
+                    <h2 class="question-text">Which of the following is the primary goal of climate action? </h2>
+                    <div class="option-list">
+                        <div class="option">
+                            <span>A. Increase industrial production</span>
+                        </div>
+
+                        <div class="option">
+                            <span>B. Reduce greenhouse gas emissions</span>
+                        </div>
+
+                        <div class="option">
+                            <span>C. Promote deforestation for urban growth</span>
+                        </div>
+
+                        <div class="option">
+                            <span>D. Increase fossil fuel usage</span>
+                        </div>
+                    </div>
+                    <div class="quiz-footer">
+                        <span class="question-total">1 of 5 question</span>
+                        <button class = "next-btn">Next</button>
+                    </div>
+                </div>
+                <div class="result-box">
+                    <h2>Quiz Result!</h2>
+                    <div class="percentage-container">
+                        <div class="circular-progress">
+                            <span class="progress-value">0%</span>
+                        </div>
+                        <span class="score-text">your score is 0 out of 5</span>
+                    </div>
+                    <div class="buttons">
+                        <button class ="gohome-btn">Go to home</button>
+
+                    </div>
+                </div>
+            </section>
+
+        <section class="home">
+            <div class="home-content">
+                <h1>Quiz</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ratione
+                     aspernatur tenetur voluptates iste, itaque adipisci 
+                    possimus nesciunt ex id laboriosam atque, voluptatum vel doloribus eum harum obcaecati
+                     quasi corporis!</p>
+                <button class="start-btn">Start Quiz</button>
+            </div>
+        </section>
+        </div>
+
+    </main>
+
+    <div class="popup-info">
+        <h2>Quiz Guide</h2>
+        <span class="info">1.Lorem ipsum dolor sit amet consectetur adipisicing.</span>
+        <span class="info">2.Lorem ipsum dolor sit amet consectetur adipisicing.</span>
+        <span class="info">3.Lorem ipsum dolor sit amet consectetur adipisicing.</span>
+        <span class="info">4.Lorem ipsum dolor sit amet consectetur adipisicing.</span>
+        <span class="info">5.Lorem ipsum dolor sit amet consectetur adipisicing.</span>
+
+        <div class= "btn-group"> 
+            <button class="info-btn exit-btn">Exit button</button>
+            <a href="#" class = "info-btn continue-btn">continue</a>
+        </div>
+    </div>
+
+
+    <script src = "question.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

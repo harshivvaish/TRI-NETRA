@@ -1,0 +1,349 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+
+.mainbar{
+    height:80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+#logo{
+    height: 40px;
+    width: 150px;
+    background-color: aliceblue;
+}
+
+#ai{
+    height: 34px;
+    width: 80px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+    box-shadow: 0px 0px 2px 2px black;
+    margin-left: 230px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+   
+}
+
+#ai:hover{
+    background-color: gray;
+    color: black;
+    border: none;
+    cursor: pointer;
+    box-shadow: none;
+    box-shadow: 0px 0px 3px 3px black;
+}
+
+
+
+#buy{
+    margin-left: 28px;
+    height: 34px;
+    width: 200px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+    box-shadow: 0px 0px 2px 2px black;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+#buy:hover{
+    background-color: gray;
+    color:black;
+    border: none;
+    cursor: pointer;
+    box-shadow: none;
+    box-shadow: 0px 0px 3px 3px black;
+}
+
+
+#sell{
+    margin-left: 28px;
+    height: 34px;
+    width: 200px;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+    box-shadow: 0px 0px 2px 2px black;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+#sell:hover{
+    background-color: gray;
+    color: black;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 0px 3px 3px black;
+}
+
+
+#signup{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 35px;
+    width:100px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+    box-shadow: 0px 0px 2px 2px black;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    
+}
+
+#signup:hover{
+    background-color: gray;
+    color: black;
+    border: none;
+    cursor: pointer;
+    box-shadow: none;
+    box-shadow: 0px 0px 3px 3px black;
+}
+
+#signin{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 35px;
+    width:100px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+    box-shadow: 0px 0px 2px 2px black;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    
+}
+
+#signin:hover{
+    
+    background-color: gray;
+    color: black;
+    border: none;
+    cursor: pointer;
+    box-shadow: none;
+    box-shadow: 0px 0px 3px 3px black;
+}
+
+
+.upin{
+    margin-left: 150px;
+    height:40px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.mainbox{
+    
+    box-shadow: 0px 0px 3px 3px gray;
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:400px;
+    width: 900px;
+}
+
+
+
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100%;
+    width:450px;
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+}
+
+
+.box2{
+    margin-left: 2px;
+    height: 100%;
+    width:450px;
+    background-color: navy;
+    border-top-left-radius: 170px;
+    border-bottom-left-radius: 170px;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+}
+
+
+#num1{
+    height:45px;
+    width: 350px;
+    background: none;
+    border: 3.5px solid black;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+
+#num1::placeholder{
+    color: black;
+    font-size: larger;
+    
+}
+
+
+
+
+
+
+#num2{
+    height:45px;
+    width: 350px;
+    background: none;
+    border: 3.5px solid black;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: black;
+    
+}
+
+#num2::placeholder{
+    color: black;
+    font-size: larger;
+    
+}
+
+
+
+
+#num3{
+    height:45px;
+    width: 350px;
+    background: none;
+    border: 3.5px solid black;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+
+#num3::placeholder{
+    color: black;
+    font-size: larger;
+    
+}
+
+
+#cal1{
+    border: white;
+    height:45px;
+    width:200px;
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: navy;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#cal1:hover{
+    border: 2px solid white;
+    opacity: 80%;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+#drop{
+    margin-top: 50px;
+    margin-left: 160px;
+    border: 2px solid white;
+    height:40px;
+    width: 150px;
+    font-weight: bold;
+
+}
+
+.text{
+    margin-top: 100px;
+}
+
+#text1{
+    margin-left: 40px;
+    color: white;
+    font-size:xx-large;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+#text2{
+    margin-left: 40px;
+    color: white;
+    font-size: larger;
+    font-weight:normal;
+}

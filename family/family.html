@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="family.css">
+    <style>
+        body{
+            background-image: url(Untitled\ design\ \(2\).jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="mainbar">
+
+            <div id="logo">
+
+            </div>
+
+            <div id="ai" onclick="aiimageanalyser()">
+                    <p id="aitext">AI RRR</p>
+            </div>
+
+            <div id="buy">
+                <Buy id="buytext">Buy Recycled Products</p>
+            </div>
+
+            <div id="sell">
+                <p id="selltext">Sell recyclable products</p>
+            </div>
+
+            <div class="upin">
+
+                <div id="signup">
+                    <p id="signup1">Sign Up.</p>
+                </div>
+    
+                <div id="signin">
+                    <p id="signin1">Sign In.</p>
+                </div>
+
+            </div>
+            
+
+        </div>
+    </header>
+
+    <main class="main">
+        <div id="maindiv">
+            <div id="main1">
+                <p id="text1">Calculate your family's Carbon Footprint Instantly!!!</p>
+                <p id="text2">Track energy consumption, transportation, waste production, and food habits to measure your environmental impact. Our user-friendly tool provides real-time insights, helping you identify areas to reduce emissions and live sustainably. Join us in promoting a greener future by making small, impactful changes starting today.</p>
+            </div>
+
+            <div id="main2">
+                <form onsubmit="return calfamily()">
+                    <input type="number" id="num1" placeholder="number of  gas cylinders in a month" required><br><br>
+                    <input type="number" id="num2" placeholder="total electricity consumed in month (in KWh)" required><br><br>
+                    <div class="xyz">
+                        <input type="number" id="num3" placeholder="fuel comsumed by car per day (in Liters) " required><br><br>
+                        <select aria-label="state" id="drop" onchange="value()">
+                            <option value="">choose one</option>
+                            <option value="petrol">DIESEL</option>
+                            <option value="diesel">CNG</option>
+                            <option value="cng">PETROL</option>
+                        </select>
+                    </div>
+                    <button type="submit" id="cal1">CALCULATE</button>
+                </form>
+            </div>
+        </div>
+    </main>
+        
+    
+</body>
+
+<script async src="family.js"></script>
+</html>

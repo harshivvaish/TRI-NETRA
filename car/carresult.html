@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Result</h2>
+    <p>annual carbon footprint</p>
+    <h1 id="result"></h1><h1>tones</h1>
+    <br>
+    <button onclick='window.location.href="index.html"'>Add Again</button>
+
+    <script>
+        // Get the result from localStorage
+        let sum = localStorage.getItem("result");
+        document.getElementById('result').textContent = sum;
+    </script>
+    
+</body>
+</html>

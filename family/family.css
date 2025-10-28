@@ -1,0 +1,335 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+
+.mainbar{
+    height:80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+#logo{
+    height: 40px;
+    width: 150px;
+    background-color: aliceblue;
+}
+
+#ai{
+    height: 34px;
+    width: 80px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+    box-shadow: 0px 0px 2px 2px black;
+    margin-left: 230px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+   
+}
+
+#ai:hover{
+    background-color: gray;
+    color: black;
+    border: none;
+    cursor: pointer;
+    box-shadow: none;
+    box-shadow: 0px 0px 3px 3px black;
+}
+
+
+
+#buy{
+    margin-left: 28px;
+    height: 34px;
+    width: 200px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+    box-shadow: 0px 0px 2px 2px black;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+#buy:hover{
+    background-color: gray;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: none;
+    box-shadow: 0px 0px 3px 3px black;
+}
+
+
+#sell{
+    margin-left: 28px;
+    height: 34px;
+    width: 200px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+    box-shadow: 0px 0px 2px 2px black;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+#sell:hover{
+    background-color: gray;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 0px 3px 3px black;
+}
+
+
+#signup{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 35px;
+    width:100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+    box-shadow: 0px 0px 2px 2px black;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    
+}
+
+#signup:hover{
+    background-color: gray;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: none;
+    box-shadow: 0px 0px 3px 3px black;
+}
+
+#signin{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 35px;
+    width:100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+    box-shadow: 0px 0px 2px 2px black;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    
+}
+
+#signin:hover{
+    
+    background-color: gray;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: none;
+    box-shadow: 0px 0px 3px 3px black;
+}
+
+
+.upin{
+    margin-left: 150px;
+    height:40px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.lowerheader{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height:450px;
+    width: 100%;
+}
+
+
+.main{
+    margin-top: 20px;
+    width:100%;
+    height: 450px;
+    
+}
+
+#maindiv{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#main1{
+    height:100%;
+    width: 500px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 2px 2px gray;
+    border-top-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+}
+
+#text1{
+    margin-top:50px;
+    margin-left:50px;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+
+}
+
+#text2{
+    height:100px;
+    width:400px;
+    margin-top:60px;
+    margin-left:50px;
+    color: white ;
+    font-size: large;
+    
+}
+
+
+
+#main2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3px;
+    height:100%;
+    width: 500px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 2px 2px gray;
+    border-top-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+}
+
+#num1{
+    margin-top: 30px;
+    height:45px;
+    width: 350px;
+    background: none;
+    border: 2.5px solid white;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+
+#num1::placeholder{
+    color: white;
+    font-size: larger;
+    
+}
+
+#num2{
+    height:45px;
+    width: 350px;
+    background: none;
+    border: 2.5px solid white;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+
+#num2::placeholder{
+    color: white;
+    font-size: larger;
+    
+}
+
+#num3{
+    height:45px;
+    width: 350px;
+    background: none;
+    border: 2.5px solid white;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+
+#num3::placeholder{
+    color: white;
+    font-size: larger;
+    
+}
+
+#cal1{
+    border: white;
+    height:45px;
+    width:200px;
+    margin-left: 70px;
+    margin-top: 20px;
+    background-color: navy;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#cal1:hover{
+    border: 2px solid white;
+    opacity: 80%;
+    cursor: pointer;
+    
+}
+
+#drop{
+    margin-top: 10px;
+    margin-left: 100px;
+    border: 2px solid white;
+    height:40px;
+    width: 150px;
+    font-weight: bold;
+    border:2px solid black;
+
+}
